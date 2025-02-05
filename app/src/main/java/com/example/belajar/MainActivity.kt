@@ -13,8 +13,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.belajar.ui.screens.products.CreateProduct
+import com.example.belajar.ui.screens.products.CustomBottomAppBar
 import com.example.belajar.ui.screens.products.HistoryChat
+import com.example.belajar.ui.screens.products.HomePage
 import com.example.belajar.ui.screens.products.MainHistoryChartScreeen
+import com.example.belajar.ui.screens.products.MainHomePageScreeen
+import com.example.belajar.ui.screens.products.ProfileScreen
+import com.example.belajar.ui.screens.products.VerticalCarousel
 import com.example.belajar.ui.screens.products.eMading
 import com.example.belajar.ui.theme.BelajarTheme
 
@@ -25,7 +30,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             BelajarTheme {
                 Surface {
-                    MainHistoryChartScreeen()
+                    MainHomePageScreeen()
                 }
             }
         }
