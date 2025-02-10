@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "com.example.belajar.app-debug-46:/drawable_hometext.png.flat",
+        "source": "com.example.belajar.app-main-48:/drawable/hometext.png"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/drawable_boxpengumuman.png.flat",
+        "source": "com.example.belajar.app-main-48:/drawable/boxpengumuman.png"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/drawable_icspp.png.flat",
+        "source": "com.example.belajar.app-main-48:/drawable/icspp.png"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/drawable_iceraport.png.flat",
+        "source": "com.example.belajar.app-main-48:/drawable/iceraport.png"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/drawable_icprofil.png.flat",
+        "source": "com.example.belajar.app-main-48:/drawable/icprofil.png"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/drawable_profilortu.jpg.flat",
+        "source": "com.example.belajar.app-main-48:/drawable/profilortu.jpg"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.example.belajar.app-main-48:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/drawable_bg1.png.flat",
+        "source": "com.example.belajar.app-main-48:/drawable/bg1.png"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.belajar.app-main-48:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/drawable_icchat.png.flat",
+        "source": "com.example.belajar.app-main-48:/drawable/icchat.png"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/drawable_icmilestone.png.flat",
+        "source": "com.example.belajar.app-main-48:/drawable/icmilestone.png"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.example.belajar.app-main-48:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/drawable_icrules.png.flat",
+        "source": "com.example.belajar.app-main-48:/drawable/icrules.png"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/drawable_iccalendaracademic.png.flat",
+        "source": "com.example.belajar.app-main-48:/drawable/iccalendaracademic.png"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.belajar.app-main-48:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.belajar.app-main-48:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.belajar.app-main-48:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.belajar.app-main-48:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.belajar.app-main-48:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.belajar.app-main-48:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.belajar.app-main-48:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.belajar.app-main-48:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/drawable_profil_santri.jpg.flat",
+        "source": "com.example.belajar.app-main-48:/drawable/profil_santri.jpg"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/drawable_imgnews.png.flat",
+        "source": "com.example.belajar.app-main-48:/drawable/imgnews.png"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.belajar.app-main-48:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/xml_backup_rules.xml.flat",
+        "source": "com.example.belajar.app-main-48:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.belajar.app-main-48:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/drawable_icjadwal.png.flat",
+        "source": "com.example.belajar.app-main-48:/drawable/icjadwal.png"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/drawable_emading.png.flat",
+        "source": "com.example.belajar.app-main-48:/drawable/emading.png"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/drawable_bgprofil.png.flat",
+        "source": "com.example.belajar.app-main-48:/drawable/bgprofil.png"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.belajar.app-main-48:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/drawable_profil_ust.jpg.flat",
+        "source": "com.example.belajar.app-main-48:/drawable/profil_ust.jpg"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/drawable_background.jpg.flat",
+        "source": "com.example.belajar.app-main-48:/drawable/background.jpg"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/drawable_profil_tri.jpg.flat",
+        "source": "com.example.belajar.app-main-48:/drawable/profil_tri.jpg"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/drawable_ichome.png.flat",
+        "source": "com.example.belajar.app-main-48:/drawable/ichome.png"
+    },
+    {
+        "merged": "com.example.belajar.app-debug-46:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.belajar.app-main-48:/mipmap-xxhdpi/ic_launcher.webp"
+    }
+]
