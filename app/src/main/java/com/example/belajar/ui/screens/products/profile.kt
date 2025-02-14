@@ -38,6 +38,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.compose.rememberNavController
 import com.example.belajar.R
+import com.example.belajar.ui.components.CustomBottomAppBar
+import com.example.belajar.ui.components.FotoProfilOrtu
+import com.example.belajar.ui.components.SantriCard
 
 @Composable
 fun ProfileScreen(paddingValues: PaddingValues) {
@@ -176,7 +179,7 @@ fun MainProfileScreenScreeen(){
     val navController = rememberNavController()
 
     Scaffold(
-        bottomBar = {CustomBottomAppBar(navController)}
+        bottomBar = { CustomBottomAppBar(navController) }
     ) { paddingValues ->
         ProfileScreen(paddingValues)
     }

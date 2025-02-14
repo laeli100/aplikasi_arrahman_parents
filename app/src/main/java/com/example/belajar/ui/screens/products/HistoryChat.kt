@@ -1,7 +1,6 @@
 package com.example.belajar.ui.screens.products
 
 import android.util.Log
-import android.widget.Space
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -25,7 +24,6 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.AssistChip
 import androidx.compose.material3.AssistChipDefaults
 import androidx.compose.material3.Card
-import androidx.compose.material3.CardColors
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ElevatedCard
 import androidx.compose.material3.MaterialTheme
@@ -36,7 +34,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.drawBehind
-import androidx.compose.ui.focus.focusModifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.drawscope.Stroke
@@ -49,6 +46,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.compose.rememberNavController
 import com.example.belajar.R
+import com.example.belajar.ui.components.CustomBottomAppBar
+import com.example.belajar.ui.components.RecentChat
 
 @Composable
 fun HistoryChat(paddingValues: PaddingValues) {
@@ -232,7 +231,7 @@ fun MainHistoryChartScreeen(){
     val navController = rememberNavController()
 
     Scaffold(
-        bottomBar = {CustomBottomAppBar(navController)}
+        bottomBar = { CustomBottomAppBar(navController) }
     ) { paddingValues ->
         HistoryChat(paddingValues)
     }
