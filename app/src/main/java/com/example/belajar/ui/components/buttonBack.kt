@@ -10,6 +10,10 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -25,23 +29,17 @@ import com.example.belajar.R
 
 @Composable
 fun ButtonBack() {
-    Row(
-        modifier = Modifier.fillMaxWidth().height(50.dp).background(color = Color(0xFFffffff)),
-        verticalAlignment = Alignment.CenterVertically
+    IconButton(
+        onClick = { /* Handle back navigation */ },
+        modifier = Modifier
+            .size(40.dp) // Ukuran tombol lingkaran
+            .background(Color(0xFF392A19), shape = CircleShape) // Warna lingkaran
+            .padding(4.dp) // Jarak ikon dari tepi lingkaran
     ) {
-        Image(
-            painter = painterResource(R.drawable.btnback3),
-            contentDescription = "Profile Picture",
-            modifier = Modifier.size(60.dp)
-        )
-
-        Spacer(modifier = Modifier.padding(horizontal = 5.dp))
-
-        Text(
-            text = "Kembali",
-            color = Color.DarkGray,
-            fontSize = 18.sp,
-            fontFamily = FontFamily.SansSerif
+        Icon(
+            imageVector = Icons.Default.ArrowBack,
+            contentDescription = "Back",
+            tint = Color.White // Warna ikon putih agar kontras dengan lingkaran
         )
     }
 }

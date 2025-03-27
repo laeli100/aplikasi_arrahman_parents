@@ -44,9 +44,12 @@ fun eMading() {
             .fillMaxSize()
             .background(Color(0xFFF0FFEC)) // Background color of the screen
     ) {
-        TopHeader(logoRes = R.drawable.emading,  // Ubah sesuai kebutuhan
-            homeIconRes = R.drawable.ichome // Ubah sesuai kebutuhan
-        )
+        Box(modifier = Modifier.fillMaxWidth().padding(horizontal = 8.dp)){
+            TopHeader(logoRes = R.drawable.emading,
+                homeIconRes = R.drawable.ichome,
+                namaFitur = "e-Mading"
+            )
+        }
         Box(
             modifier = Modifier
                 .fillMaxWidth()
@@ -70,35 +73,6 @@ fun eMading() {
                     colors = CardDefaults.cardColors(
                         containerColor = MaterialTheme.colorScheme.surfaceBright
                     ),
-//                    modifier = Modifier
-//                        .fillMaxWidth()
-//                        .weight(1f)
-//                        .drawBehind {
-//                            // Properti shadow
-//                            val shadowColor = Color(0xFF000000) // Warna hitam dengan opacity 25%
-//                            val shadowOffsetY = 50.dp.toPx() // Posisi Y dalam piksel
-//                            val shadowBlurRadius = 11.9f // Blur radius
-//                            val spread = 50.dp.toPx() // Spread dalam piksel
-//
-//                            // Ukuran kartu
-//                            val cardWidth = size.width
-//                            val cardHeight = size.height
-//
-//                            // Membuat shadow di dalam
-//                            drawRoundRect(
-//                                color = shadowColor,
-//                                topLeft = Offset(spread, shadowOffsetY),
-//                                size = Size(
-//                                    cardWidth - spread * 50,
-//                                    cardHeight - shadowOffsetY - spread
-//                                ),
-//                                cornerRadius = CornerRadius(
-//                                    60.dp.toPx(),
-//                                    60.dp.toPx()
-//                                ), // Sudut melengkung
-//                                blendMode = BlendMode.SrcOver // Blend untuk membuat bayangan menyatu
-//                            )
-//                        }
                 ) {
                     Box(
                         modifier = Modifier

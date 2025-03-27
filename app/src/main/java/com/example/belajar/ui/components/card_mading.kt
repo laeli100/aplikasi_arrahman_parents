@@ -89,7 +89,7 @@ fun FilterMading(
     Box(
         modifier = modifier
             .background(
-                color = Color(0xFFFFE3B6),
+                color = Color(0xFFF6E8DB),
                 shape = RoundedCornerShape(10.dp)
             )
             .padding(horizontal = 4.dp, vertical = 2.dp),
@@ -99,7 +99,7 @@ fun FilterMading(
             text = text,
             textAlign = TextAlign.Center,
             fontSize = fontSize.sp, // Menggunakan parameter fontSize
-            color = Color(0xFF996633),
+            color = Color(0xFF74665D),
             fontWeight = FontWeight.Bold
         )
     }

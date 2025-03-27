@@ -7,6 +7,8 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -15,6 +17,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
@@ -27,10 +30,11 @@ import com.example.belajar.R
 @Composable
 fun TopHeader(
     logoRes: Int,
-    homeIconRes: Int
+    homeIconRes: Int,
+    namaFitur:String
 ) {
     Row(
-        modifier = Modifier.fillMaxWidth(),
+        modifier = Modifier.fillMaxWidth().height(90.dp).padding(top = 35.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.SpaceBetween
     ) {
@@ -38,7 +42,6 @@ fun TopHeader(
             modifier = Modifier
                 .size(60.dp)
                 .clip(RoundedCornerShape(16.dp))
-                .background(Color(0x80032B35)) // Warna dengan transparansi
         ) {
             Image(
                 painter = painterResource(id = logoRes),
@@ -51,7 +54,7 @@ fun TopHeader(
         }
 
         Text(
-            text = "e-MADING",
+            text = namaFitur,
             fontSize = 24.sp,
             fontWeight = FontWeight.Bold,
             color = Color(0xFF1B5E20),
@@ -80,6 +83,7 @@ fun TopHeader(
 fun TopHeaderPreview() {
     TopHeader(
         logoRes = R.drawable.emading,  // Ubah sesuai kebutuhan
-        homeIconRes = R.drawable.ichome // Ubah sesuai kebutuhan
+        homeIconRes = R.drawable.ichome,
+        namaFitur = "e-Mading"
     )
 }
